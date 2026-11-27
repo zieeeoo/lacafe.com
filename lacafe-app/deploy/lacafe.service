@@ -1,0 +1,22 @@
+[Unit]
+Description=LaCafe Member
+After=network.target
+
+[Service]
+WorkingDirectory=/opt/lacafe
+ExecStart=/usr/bin/node server.js
+Restart=always
+User=www-data
+Environment=NODE_ENV=production
+Environment=TRUST_PROXY=1
+Environment=HOST=127.0.0.1
+Environment=PORT=3000
+Environment=ADMIN_PASSWORD=GantiDenganSandiKuat1
+# Batasi akses sistem
+NoNewPrivileges=true
+ProtectSystem=strict
+ReadWritePaths=/opt/lacafe/data
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

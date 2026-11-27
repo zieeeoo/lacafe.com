@@ -1,0 +1,380 @@
+{
+  "source": "data.xlsx",
+  "generatedAt": "2026-11-27T01:29:39",
+  "settings": {
+    "rupiahPerPoint": 10000,
+    "inactiveDays": 30,
+    "tiers": [
+      {
+        "key": "reguler",
+        "name": "Reguler",
+        "minSpend": 0
+      },
+      {
+        "key": "silver",
+        "name": "Silver",
+        "minSpend": 500000
+      },
+      {
+        "key": "gold",
+        "name": "Gold",
+        "minSpend": 1500000
+      }
+    ]
+  },
+  "options": {
+    "genders": [
+      "MALE",
+      "FEMALE"
+    ],
+    "sources": [
+      "WALK IN",
+      "INSTAGRAM",
+      "TIKTOK",
+      "TEMAN/KELUARGA",
+      "GOOGLE",
+      "LAINNYA"
+    ],
+    "payments": [
+      "CASH",
+      "BCA QR",
+      "UNION PAY"
+    ]
+  },
+  "menu": [
+    {
+      "code": "AMERICANO COLD",
+      "name": "Americano Cold",
+      "price": 25000,
+      "category": "kopi",
+      "temp": "cold"
+    },
+    {
+      "code": "COFFEE LATTE COLD",
+      "name": "Coffee Latte Cold",
+      "price": 27000,
+      "category": "kopi",
+      "temp": "cold"
+    },
+    {
+      "code": "CAPPUCINO COLD",
+      "name": "Cappucino Cold",
+      "price": 27000,
+      "category": "kopi",
+      "temp": "cold"
+    },
+    {
+      "code": "V60",
+      "name": "V60",
+      "price": 30000,
+      "category": "kopi",
+      "temp": null
+    },
+    {
+      "code": "COLD BREW",
+      "name": "Cold Brew",
+      "price": 30000,
+      "category": "kopi",
+      "temp": null
+    },
+    {
+      "code": "KOPI SUSU MALAKA",
+      "name": "Kopi Susu Malaka",
+      "price": 23000,
+      "category": "kopi",
+      "temp": null
+    },
+    {
+      "code": "BUTTERSCOTCH LATTE COLD",
+      "name": "Butterscotch Latte Cold",
+      "price": 29000,
+      "category": "kopi",
+      "temp": "cold"
+    },
+    {
+      "code": "CARAMEL LATTE COLD",
+      "name": "Caramel Latte Cold",
+      "price": 27000,
+      "category": "kopi",
+      "temp": "cold"
+    },
+    {
+      "code": "CHOCO MILKSHAKE COLD",
+      "name": "Choco Milkshake Cold",
+      "price": 29000,
+      "category": "non-kopi",
+      "temp": "cold"
+    },
+    {
+      "code": "TARO LATTE COLD",
+      "name": "Taro Latte Cold",
+      "price": 29000,
+      "category": "non-kopi",
+      "temp": "cold"
+    },
+    {
+      "code": "MATCHA LATTE COLD",
+      "name": "Matcha Latte Cold",
+      "price": 29000,
+      "category": "non-kopi",
+      "temp": "cold"
+    },
+    {
+      "code": "MILO COLD",
+      "name": "Milo Cold",
+      "price": 29000,
+      "category": "non-kopi",
+      "temp": "cold"
+    },
+    {
+      "code": "BUTTER TOAST",
+      "name": "Butter Toast",
+      "price": 23000,
+      "category": "makanan",
+      "temp": null
+    },
+    {
+      "code": "CROISSANT",
+      "name": "Croissant",
+      "price": 18000,
+      "category": "makanan",
+      "temp": null
+    },
+    {
+      "code": "FRENCH FRIES + SAUSAGE",
+      "name": "French Fries + Sausage",
+      "price": 28000,
+      "category": "makanan",
+      "temp": null
+    },
+    {
+      "code": "MIX PLATTER",
+      "name": "Mix Platter",
+      "price": 58000,
+      "category": "makanan",
+      "temp": null
+    },
+    {
+      "code": "LA RUM COFFEE",
+      "name": "LA Rum Coffee",
+      "price": 29000,
+      "category": "kopi",
+      "temp": null
+    },
+    {
+      "code": "C BLAST AMERICANO",
+      "name": "C Blast Americano",
+      "price": 28000,
+      "category": "kopi",
+      "temp": null
+    },
+    {
+      "code": "YUZU COFFEE",
+      "name": "Yuzu Coffee",
+      "price": 28000,
+      "category": "kopi",
+      "temp": null
+    },
+    {
+      "code": "CHOCO BERRY MILK",
+      "name": "Choco Berry Milk",
+      "price": 29000,
+      "category": "non-kopi",
+      "temp": null
+    },
+    {
+      "code": "OOLONG CLOUD TEA",
+      "name": "Oolong Cloud Tea",
+      "price": 27000,
+      "category": "teh",
+      "temp": null
+    },
+    {
+      "code": "YUZU ORANGE",
+      "name": "Yuzu Orange",
+      "price": 25000,
+      "category": "teh",
+      "temp": null
+    },
+    {
+      "code": "LYCHEE TEA",
+      "name": "Lychee Tea",
+      "price": 28000,
+      "category": "teh",
+      "temp": null
+    },
+    {
+      "code": "SWEET TEA",
+      "name": "Sweet Tea",
+      "price": 15000,
+      "category": "teh",
+      "temp": null
+    },
+    {
+      "code": "LA WATER",
+      "name": "LA Water",
+      "price": 15000,
+      "category": "teh",
+      "temp": null
+    },
+    {
+      "code": "AMERICANO HOT",
+      "name": "Americano Hot",
+      "price": 23000,
+      "category": "kopi",
+      "temp": "hot"
+    },
+    {
+      "code": "COFFEE LATTE HOT",
+      "name": "Coffee Latte Hot",
+      "price": 25000,
+      "category": "kopi",
+      "temp": "hot"
+    },
+    {
+      "code": "CAPPUCINO HOT",
+      "name": "Cappucino Hot",
+      "price": 25000,
+      "category": "kopi",
+      "temp": "hot"
+    },
+    {
+      "code": "CARAMEL HOT",
+      "name": "Caramel Hot",
+      "price": 25000,
+      "category": "kopi",
+      "temp": "hot"
+    },
+    {
+      "code": "BUTTERSCOTCH LATTE HOT",
+      "name": "Butterscotch Latte Hot",
+      "price": 27000,
+      "category": "kopi",
+      "temp": "hot"
+    },
+    {
+      "code": "TARO LATTE HOT",
+      "name": "Taro Latte Hot",
+      "price": 27000,
+      "category": "non-kopi",
+      "temp": "hot"
+    },
+    {
+      "code": "MATCHA LATTE HOT",
+      "name": "Matcha Latte Hot",
+      "price": 27000,
+      "category": "non-kopi",
+      "temp": "hot"
+    },
+    {
+      "code": "MILO HOT",
+      "name": "Milo Hot",
+      "price": 27000,
+      "category": "non-kopi",
+      "temp": "hot"
+    },
+    {
+      "code": "CHOCO MILKSHAKE HOT",
+      "name": "Choco Milkshake Hot",
+      "price": 27000,
+      "category": "non-kopi",
+      "temp": "hot"
+    }
+  ],
+  "customers": [
+    {
+      "memberCode": "LC001",
+      "name": "Fadhil",
+      "phone": "085899017510",
+      "joinedAt": "2026-11-22",
+      "gender": "female",
+      "source": "WALK IN",
+      "favoriteNote": "KOPI SUSU MALAKA & CHOCO MILKSHAKE",
+      "note": null
+    },
+    {
+      "memberCode": "LC002",
+      "name": "Joko",
+      "phone": null,
+      "joinedAt": "2026-11-22",
+      "gender": null,
+      "source": null,
+      "favoriteNote": null,
+      "note": null
+    },
+    {
+      "memberCode": "LC003",
+      "name": "Jaidi",
+      "phone": null,
+      "joinedAt": "2026-11-23",
+      "gender": null,
+      "source": null,
+      "favoriteNote": null,
+      "note": null
+    },
+    {
+      "memberCode": "LC004",
+      "name": "Aisah",
+      "phone": null,
+      "joinedAt": "2026-11-24",
+      "gender": null,
+      "source": null,
+      "favoriteNote": null,
+      "note": null
+    }
+  ],
+  "transactions": [
+    {
+      "code": "TL001",
+      "date": "2026-11-22",
+      "memberCode": "LC001",
+      "items": [
+        {
+          "code": "KOPI SUSU MALAKA",
+          "qty": 2
+        }
+      ],
+      "total": 46000,
+      "payment": "BCA QR"
+    },
+    {
+      "code": "TL002",
+      "date": "2026-11-22",
+      "memberCode": "LC002",
+      "items": [
+        {
+          "code": "V60",
+          "qty": 1
+        }
+      ],
+      "total": 30000,
+      "payment": "UNION PAY"
+    },
+    {
+      "code": "TL003",
+      "date": "2026-11-23",
+      "memberCode": "LC003",
+      "items": [
+        {
+          "code": "AMERICANO COLD",
+          "qty": 1
+        }
+      ],
+      "total": 25000,
+      "payment": "CASH"
+    },
+    {
+      "code": "TL004",
+      "date": "2026-11-24",
+      "memberCode": "LC004",
+      "items": [
+        {
+          "code": "BUTTERSCOTCH LATTE COLD",
+          "qty": 30
+        }
+      ],
+      "total": 870000,
+      "payment": "BCA QR"
+    }
+  ]
+}
